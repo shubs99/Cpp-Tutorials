@@ -1,0 +1,57 @@
+
+// lower case
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    string s;
+    cin >> s;
+    int arr[s];
+    for(int i=0;i<n;i++){
+        cin arr[i];
+    }
+
+
+    int hash[26] = {0};
+    for(int i=0;i<n;i++){
+        hash[s[i] - 'a']++;
+    }
+
+
+    int q;
+    cin >> q;
+    while(q--){
+      char c;
+      cin >> c;
+    }
+}
+
+
+// upper case + lower case
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    string s;
+    cin >> s;
+    int arr[s];
+    for(int i=0;i<n;i++){
+        cin arr[i];
+    }
+
+
+    int hash[256] = {0};
+    for(int i=0;i<n;i++){
+        hash[s[i] - 'A']++;
+    }
+
+
+    int q;
+    cin >> q;
+    while(q--){
+      char c;
+      cin >> c;
+    }
+}
